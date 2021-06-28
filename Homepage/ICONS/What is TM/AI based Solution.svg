@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 200 200">
+  <g id="AI_based_Solution" data-name="AI based Solution" transform="translate(-252.98 -315.12)">
+    <circle id="Ellipse_214" data-name="Ellipse 214" cx="100" cy="100" r="100" transform="translate(252.98 315.12)" fill="#fff"/>
+    <g id="Group_337" data-name="Group 337">
+      <g id="Group_335" data-name="Group 335">
+        <path id="Path_223" data-name="Path 223" d="M382.09,445.51a147.875,147.875,0,0,1-58.01,0,122.615,122.615,0,0,1,0-58.01,85.265,85.265,0,0,1,58.01,0A122.872,122.872,0,0,1,382.09,445.51Z" fill="#1aa7de"/>
+      </g>
+      <rect id="Rectangle_709" data-name="Rectangle 709" width="4.17" height="17.84" transform="translate(336.45 370.07)" fill="#1aa7de"/>
+      <circle id="Ellipse_215" data-name="Ellipse 215" cx="4.95" cy="4.95" r="4.95" transform="translate(333.59 365.12)" fill="#1aa7de"/>
+      <rect id="Rectangle_710" data-name="Rectangle 710" width="4.17" height="17.84" transform="translate(365.34 370.07)" fill="#1aa7de"/>
+      <circle id="Ellipse_216" data-name="Ellipse 216" cx="4.95" cy="4.95" r="4.95" transform="translate(362.48 365.12)" fill="#1aa7de"/>
+      <rect id="Rectangle_711" data-name="Rectangle 711" width="4.17" height="17.84" transform="translate(336.45 442.33)" fill="#1aa7de"/>
+      <circle id="Ellipse_217" data-name="Ellipse 217" cx="4.95" cy="4.95" r="4.95" transform="translate(333.59 455.22)" fill="#1aa7de"/>
+      <rect id="Rectangle_712" data-name="Rectangle 712" width="4.17" height="17.84" transform="translate(365.34 442.33)" fill="#1aa7de"/>
+      <circle id="Ellipse_218" data-name="Ellipse 218" cx="4.95" cy="4.95" r="4.95" transform="translate(362.48 455.22)" fill="#1aa7de"/>
+      <rect id="Rectangle_713" data-name="Rectangle 713" width="4.17" height="17.84" transform="translate(307.931 431.646) rotate(-90)" fill="#1aa7de"/>
+      <circle id="Ellipse_219" data-name="Ellipse 219" cx="4.95" cy="4.95" r="4.95" transform="translate(302.98 424.61)" fill="#1aa7de"/>
+      <rect id="Rectangle_714" data-name="Rectangle 714" width="4.17" height="17.84" transform="translate(307.936 402.761) rotate(-90)" fill="#1aa7de"/>
+      <circle id="Ellipse_220" data-name="Ellipse 220" cx="4.95" cy="4.95" r="4.95" transform="translate(302.98 395.73)" fill="#1aa7de"/>
+      <rect id="Rectangle_715" data-name="Rectangle 715" width="4.17" height="17.84" transform="translate(380.191 431.646) rotate(-90)" fill="#1aa7de"/>
+      <circle id="Ellipse_221" data-name="Ellipse 221" cx="4.95" cy="4.95" r="4.95" transform="translate(393.09 424.61)" fill="#1aa7de"/>
+      <rect id="Rectangle_716" data-name="Rectangle 716" width="4.17" height="17.84" transform="translate(380.196 402.761) rotate(-90)" fill="#1aa7de"/>
+      <circle id="Ellipse_222" data-name="Ellipse 222" cx="4.95" cy="4.95" r="4.95" transform="translate(393.09 395.73)" fill="#1aa7de"/>
+      <g id="Group_336" data-name="Group 336">
+        <path id="Path_224" data-name="Path 224" d="M343.58,420.05l-1.85,5.48h-5.04l8.05-23.71h6.44l8.4,23.71h-5.39l-1.95-5.48Zm7.56-4.2c-1.68-5-2.76-8.2-3.33-10.33h-.03c-.58,2.34-1.77,6.06-3.12,10.33Z" fill="#fff"/>
+        <path id="Path_225" data-name="Path 225" d="M369.47,401.82v23.71h-5.13V401.82Z" fill="#fff"/>
+      </g>
+    </g>
+  </g>
+</svg>
