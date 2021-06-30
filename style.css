@@ -5,15 +5,22 @@
 
 
 
-.features,.clients{
+.features .heading {
     padding: 10px 277px;
 }
 
+
+
 .features .feature-container{
-    padding: 0 !important;
+    padding: 10px 250px;
     margin: 0 !important;
+    display: flex;
+    flex-direction: row;   
+
 
 }
+
+
 
 .whywestandout .feature-item,.whatistm .feature-item{
     background-color: #fff;
@@ -32,11 +39,11 @@
 }
 .whyus .feature-item{
     background-color: #fff;
-    height: 350px ;
+    /* height: 350px ; */
     display: flex;
     font-family: 'Montserrat', sans-serif;
     flex-direction: column;
-    justify-content:space-;
+    justify-content:center;
     align-items:center;
     margin: 0px 0px;
     padding: 0px 0px;
@@ -51,6 +58,7 @@
 .whyus .feature-icon{
     height:100px;
     width: 100px;
+    margin-bottom: 34px;
     
 }
 
@@ -67,12 +75,14 @@
     font-weight: 600 ;
     font-size: 20px;
     line-height: 24px;
+    
 }
 
 .whyus .feature-title{
     font-weight: 600 ;
     font-size: 14px;
     line-height: 24px;
+    margin-bottom: 36px;
 
 
 }
@@ -86,6 +96,7 @@
     font-weight: 400 ;
     width: 156px ;
     line-height: 24px;
+    margin-bottom: 60px;
 
 }
 
@@ -103,8 +114,8 @@
 
 .whyus .feature-item-btn{
     border-radius:50px;
-    font-size: 14px;
-    width: 122px;
+    font-size: 12px;
+    width: 100px;
     font-weight: 600;
     padding: 10px ;
 }
@@ -112,7 +123,7 @@
 .whywestandout .feature-item-btn,.whatistm .feature-item-btn{
     border-radius:50px;
     font-size: 14px;
-    width: 131px;
+    width: 124px;
     font-weight: 600;
     padding: 10px ;
 }
@@ -120,9 +131,12 @@
 
 #explore-txt{
     color: #084E7B;
-    font-size: 20px;
+    font-size: 24px;
     font-family: 'Roboto', sans-serif;
-    font-weight: 500 !important;
+    font-weight: 400 !important;
+    margin-top: 58px;
+    padding: 0px 250px;
+
 
 }
 
@@ -172,22 +186,36 @@ padding: 0px;
 
 
 .explore-btn{
-    height: 38px;
+    height: 50px;
+    width: 200px;
+    font-size: 14px;
     border-radius:50px;
     outline: none;
-    font-size: 14px;
+    border: none;
     margin: 120px auto;
     font-weight: 600;
-    padding: 10px 30px ;
-    /* width: 100%; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color:rgb(37, 164, 223);
 
 }
 
 
 
+
+
 @media  (max-width : 1200px){
 
+
+
+    
+.explore-btn{
+    height: 38px;
+    width: 132px;
+    font-size: 12px;
+
+}
 
 
 
@@ -206,7 +234,13 @@ padding: 0px;
     .features .feature-container{
         overflow: scroll;
         padding: 0px 0px ;
+        display: flex;
+        flex-direction: row;
         padding-left: 60px !important;
+    }
+    
+    .features .feature-container::-webkit-scrollbar{
+        display: none;
     }
     
         
