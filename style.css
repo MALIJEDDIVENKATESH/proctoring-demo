@@ -4,6 +4,174 @@
 
 
 
+.navbar{
+    background-color:white !important;
+    box-shadow: 0px 2px 26px rgba(0,0,0,0.3);
+    
+}
+
+
+#demo-btn{
+    width: 220px;
+    font-size: 16px !important;
+    padding: 10px;
+    float: right;
+    border-radius: 25px;
+    border: none;
+    display: block;
+    margin: auto;
+    background-color:rgb(37, 164, 223);
+    
+}
+
+.navbar a{
+    font-size: 18px;
+    text-transform: capitalize;
+    font-weight: 600;
+
+}
+
+.navbar-brand img{
+    height: 40px;
+    width: 110px;
+    float: left !important;
+
+}
+
+
+.navbar .navbar-nav .nav-item {
+    padding: 2px 0px ;
+    padding-right: 40px;
+
+}
+
+.navbar .navbar-nav .nav-item .nav-link{
+    color:#000;
+    position: relative;
+
+}
+.navbar .navbar-nav .nav-item .nav-link:active{
+    color: #084E7B;
+
+}
+
+.navbar .navbar-nav .nav-item .nav-link:after{
+
+content: "";
+position: absolute;
+height: 3px;
+width: 0%;
+left: 0;
+bottom: -5px;
+
+
+}
+.navbar .navbar-nav .nav-item .nav-link:hover:after{
+
+content: "";
+position: absolute;
+background-color:rgb(37, 164, 223);
+
+height: 3px;
+width: 100%;
+margin: auto;
+left: 0;
+bottom: 0;
+
+
+}
+
+.filter{
+filter: invert(54%) sepia(97%) saturate(1041%) hue-rotate(167deg) brightness(90%) contrast(93%);
+
+}
+
+.landing-part{
+    width: 100%;
+}
+
+.landing{
+    width: 100%;
+    padding: 0px 100px;
+    color: #fff;
+    margin-top: 65px;
+    background-color: #084E7B;
+
+
+}
+
+
+.landing .row::-webkit-scrollbar{
+    display: none;
+}
+
+
+.landing h1{
+    font-weight: bolder;
+}
+
+.landing .landing-icon{
+height: 50px;
+width: 50px;
+
+
+
+
+}
+.landing-item{
+    background-color: #fff;
+    height: 200px;
+    width: 180px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+    align-items:center;
+    margin: 20px 10px;
+    margin-left: 0px;
+    border-radius: 20px;
+    color:rgb(37, 164, 223);
+    box-shadow:0px 0px 15px 0px  rgba(255, 255, 255, 0.70);
+
+
+}
+
+.landing-item-btn{
+    border: none;
+    border-radius:50px;
+    outline: none;
+    font-size: 14px;
+    width: 95%;
+    font-weight: 600;
+    padding: 10px ;
+    background-color:rgb(37, 164, 223);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .features .heading {
     padding: 10px 277px;
@@ -149,7 +317,7 @@
 }
 
 .features .heading{
-    margin-bottom: 120px;
+margin-bottom: 120px;
 }
 
 
@@ -206,6 +374,32 @@ padding: 0px;
 
 
 @media  (max-width : 1200px){
+
+
+    .navbar{
+        padding:10px ;
+    }
+    
+    .navbar .navbar-nav .nav-item .nav-link{
+        padding: 18px;
+        text-align: center;
+    }
+    
+    .navbar .navbar-nav .nav-item {
+        padding: 0px;
+    }
+    
+    .landing{
+        padding: 30px;
+    }
+    
+
+
+
+
+
+
+
 
 
 
@@ -286,9 +480,6 @@ padding: 0px;
         padding: 0px 0px;
     }
     
-    .feature-item-container{
-        /* margin: 0px -38px; */
-    } 
     
     
     
@@ -333,6 +524,80 @@ padding: 0px;
 
 
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+
+
+
+
+    .navbar .navbar-nav .nav-item .nav-link{
+        padding: 18px;
+        text-align: center;
+    }
+    
+    .navbar .navbar-nav .nav-item {
+        padding: 0px;
+    }
+    
+    .navbar{
+        padding: 10px;
+    }
+    
+    .navbar .navbar-nav .nav-item .nav-link:hover:after{
+        content: "";
+    position: absolute;
+    background-color:rgb(37, 164, 223);
+    height: 3px;
+    width: 50%;
+    margin: 0px auto;
+    left: 25%;
+    bottom: -0px;
+    
+    
+    }
+    
+    .floatingbtn{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        position: fixed;
+        bottom: 10%;
+        left: -150px;
+        z-index: 100;
+    
+    }
+    
+    .scrollbutton{
+        margin: 0px 3px;
+    }
+    
+    
+    #demo-btn{
+        margin: 0;
+        height: 40px;
+        font-size: 15px;
+        border-radius: 20px;
+        margin: auto;
+    }
+    .landing{
+        padding: 0px;
+        text-align: center;
+    
+    }
+    
+    
+    .landing-item-container{
+     margin: 0px 30px;
+        
+    }
+
+
+
+
+
+
+
+
+
 
 
 
@@ -435,9 +700,6 @@ padding: 0px;
         padding: 0px 0px;
     }
     
-    .feature-item-container{
-        /* margin: 0px -38px; */
-    } 
     
     
     #explore-txt{
