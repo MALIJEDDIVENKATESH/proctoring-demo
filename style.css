@@ -203,7 +203,7 @@ filter: invert(54%) sepia(97%) saturate(1041%) hue-rotate(167deg) brightness(90%
     padding: 0px 100px;
     color: #fff;
     margin-top: 65px;
-    background-image:url('./images/Rectangle\ 842.png');
+    background-image: url('./images/Homebg.png');
 
 
 }
@@ -492,7 +492,6 @@ font-size: 18px;
     flex-direction: column;
     min-height: 300px;
     border-radius: 30px !important;
-    margin: 0px -200px;
 
 
 }
