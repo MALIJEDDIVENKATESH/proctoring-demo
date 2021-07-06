@@ -116,6 +116,16 @@ body{
     outline: none !important;
 }
 
+#five-steps-image {
+    background-image: url('./images/Group\ 598.png');
+    height: 300px;
+    width: 100%;
+    margin:0px auto;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+
 
 #demo-btn{
     width: 220px;
@@ -701,7 +711,7 @@ outline: 0px !important;
     text-align: center;
     font-family: 'Montserrat', sans-serif;
     font-weight:400;
-    font-size: 1.8rem;
+    font-size: 28px;
 }
 
 
@@ -778,8 +788,11 @@ outline: 0px !important;
 }
 
 .demographic{
+    padding: 0px ;
+    margin: 0px;
     margin-top: 214px;
     margin-bottom: 197px;
+
 }
 
 
@@ -843,6 +856,13 @@ outline: 0px !important;
     border-color: #dee2e6 #dee2e6 #fff;
 }
 
+.solution {
+    font-weight:400;
+    font-size: 20px;
+    margin-bottom: 80px;
+}
+
+
 
 
 .integrations{
@@ -852,8 +872,8 @@ outline: 0px !important;
 
  .integration1{
     font-family: 'Montserrat', sans-serif;
-    color: #1AA7DE;
-    font-size: 16px;
+    color: #000;
+    font-size: 14px;
     font-weight: 400;
 }
 #demo-btn {
@@ -1179,6 +1199,13 @@ outline: 0px !important;
     }
     
     
+.five-steps{
+    margin-top: 84px !important;
+    margin-bottom: 119px !important;
+}
+
+
+
     #demo-btn{
         margin: 0;
         height: 40px;
@@ -1301,12 +1328,22 @@ outline: 0px !important;
         padding: 0px 36px !important;
     
     }
+
     
     
     
     .features,.clients,.integrations,.whotrustus{
         padding: 0px 0px;
     }
+
+    
+.integrations{
+    padding: 0px 18px;
+    margin-top: 60px;
+    margin-bottom: 100px;
+
+}
+    
 
     
     
@@ -1332,7 +1369,7 @@ outline: 0px !important;
     
     .features .main-title,.integrations .main-title{
         font-weight:900 ;
-        font-size: 18px;
+        font-size: 20px;
         margin-bottom: 28px;
     
     

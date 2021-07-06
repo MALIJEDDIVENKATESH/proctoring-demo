@@ -1,11 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@200;300;400;500;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;800&display=swap');
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
 .client{
     width: 100%;
     padding: 30px 70px;
@@ -15,7 +10,7 @@
 .client h3{
     font-family: 'Monsterrat', sans-serif;
     font-size: 30px;
-    font-weight: 500;
+    font-weight: 300;
     margin-bottom: 50px;
     text-transform: uppercase;
 }
@@ -211,8 +206,13 @@ footer .copyright-text{
     }
 }
 @media screen and (max-width:580.9px){
+
+.client{
+    padding: 0px 37px;
+}
+
     .client h3{
-        font-size: 12px;
+        font-size: 18px;
         margin-bottom: 25px;
     }
     .client p{
