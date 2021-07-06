@@ -43,9 +43,10 @@ body{
 }
 
 .whotrustus {
-    background-color: #084e7b;
-    background-color: rgb(26, 167 ,222);
+    /* background-color: #084e7b; */
+    /* background-color: rgb(26, 167 ,222); */
     width: 100%;
+    border-bottom: 1px solid #000;
     overflow: hidden;
 
 }
@@ -79,7 +80,7 @@ body{
     flex-wrap: nowrap;
     align-items: center;
     height: 100%;
-    animation: scroll 10s infinite linear alternate-reverse ;
+    animation: scroll 12s infinite linear alternate-reverse ;
 
   }
 
@@ -92,7 +93,7 @@ body{
     align-items: center;
     border-radius: 20px;
     text-align: center;
-    background-color: rgb(26, 167 ,222);
+    /* background-color: rgb(26, 167 ,222); */
 
   }
 
@@ -281,14 +282,33 @@ width: 50px;
 
 
 
-.features .heading {
-    padding: 10px 277px;
+.features .heading{
+    padding: 10px 170px;
+}
+
+.integrations .heading{
+    padding: 0px 10px;
+    text-align: left;
+    margin-bottom: 97px;
 }
 
 
 
 .features .feature-container{
-    padding: 10px 250px;
+    padding: 10px 0px;
+    padding-left: 165px;
+    padding-right: 90px;
+    margin: 0 !important;
+    display: flex;
+    flex-direction: row;   
+
+
+}
+
+.whyus .feature-container{
+    padding: 10px 0px;
+    padding-left: 168px;
+    padding-right: 124px;
     margin: 0 !important;
     display: flex;
     flex-direction: row;   
@@ -483,6 +503,9 @@ font-size: 18px;
 
 /* TESTIMONIALS */
 
+.testimonials{
+    margin-bottom: 290px;
+}
 
 
 .swiper-slide{
@@ -665,7 +688,10 @@ outline: 0px !important;
 
 
 .integrations{
-    padding: 0px 140px;
+    padding: 0px 56px;
+    margin-top: 297px;
+    margin-bottom: 320px;
+
 }
 
 
@@ -678,10 +704,7 @@ outline: 0px !important;
     font-size: 1.8rem;
 }
 
-.icon {
-    max-width: 160px;
-    max-height: 160px;
-}
+
 
 .row2 {
     padding-left: 60px;
@@ -708,7 +731,11 @@ outline: 0px !important;
 }
 
 
+.integration1{
+    margin-top: 56px ;
+    margin-bottom: 30px;
 
+}
 
 
 #web-tab {
@@ -748,6 +775,11 @@ outline: 0px !important;
     font-size: 16px;
     font-weight: bold;
     padding-top: 10px;
+}
+
+.demographic{
+    margin-top: 214px;
+    margin-bottom: 197px;
 }
 
 
@@ -815,14 +847,14 @@ outline: 0px !important;
 
 .integrations{
     padding: 0px 35px;
+
 }
 
-.integration1{
+ .integration1{
     font-family: 'Montserrat', sans-serif;
     color: #1AA7DE;
     font-size: 16px;
     font-weight: 400;
-    padding-top: 10px;
 }
 #demo-btn {
     width: 207px;

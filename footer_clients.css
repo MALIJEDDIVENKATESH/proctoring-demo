@@ -1,0 +1,285 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.client{
+    width: 100%;
+    padding: 30px 70px;
+    color: #707070;
+    margin-bottom: 352px;
+}
+.client h3{
+    font-family: 'Monsterrat', sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+}
+.client p{
+    margin: 40px 0;
+    font-size: 24px;
+}
+.client .images .grid-headings{
+    display: grid;
+    grid-template-columns: repeat(9, 1fr);
+    gap: 110px;
+    text-align: center;
+}
+.client .images .grid-headings .col1{
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+.client .images .grid-headings .col2{
+    grid-column-start: 4;
+    grid-column-end: 7;
+}
+.client .images .grid-headings .col3{
+    grid-column-start: 7;
+    grid-column-end: 10;
+}
+.client .images .grid-headings div h4{
+    font-size: 20px;
+    margin: 15px 5px;
+}
+.client .images .grid{
+    display: grid;
+    grid-template-columns: repeat(9, 1fr);
+    grid-template-rows: 4;
+    gap: 5px 10px;
+}
+.client .images .grid .col,
+.client .images .grid-headings .col{
+    padding: 0;
+}
+.client .images .grid div img{
+    height: 50px;
+    width: 100px;
+    background-color: #707070;
+}
+footer{
+    position: relative;
+    width: 100%;
+    height: auto;
+    padding: 30px 50px;
+    font-family: 'Monsterrat', sans-serif;
+    background: linear-gradient(to left, #1aa7de, #084e78);
+}
+footer .head{
+    font-size: 48px;
+    font-weight: 600;
+    color: #fff;
+}
+footer .link-contact{
+    margin-bottom: 30px;
+}
+footer .quick-links{
+    margin-top: 40px;
+}
+footer .quick-links ul{
+    margin: 0 40px 10px 0;
+}
+footer .quick-links ul li{
+    background: url("./Group\ 488.png") no-repeat left center;
+    padding: 0 25px;
+    margin: 0 0 10px 0;
+    vertical-align: middle;
+}
+footer .quick-links ul li a{
+    color: #fff;
+    font-weight: 400;
+    font-size: 24px;
+    display: inline-block;
+    width: 300px;
+}
+footer .contact{
+    color: #fff;
+}
+footer .contact h2{
+    font-family: 'Roboto', sans-serif;
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+footer .contact .info li span img{
+    height: 15px;
+    width: 15px;
+    margin-right: 10px;
+}
+.contact .info li{
+    margin-bottom: 10px;
+}
+.contact .info li span, .contact .info li a{
+    color: #fff;
+}
+footer .icons-div{
+    width: 100%;
+}
+footer .icons-div p{
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    margin-right: 40px;
+}
+footer .icons-div .icon li a{
+    background-color: #fff;
+    border-radius: 50%;
+    width: 46px;
+    height: 46px;
+    margin: 0 20px;
+}
+footer .icons-div .icon li a .fa{
+    color: rgb(26, 167, 222);
+    font-size: 25px;
+}
+footer .rule hr{
+    margin: 10px -20px 40px -20px;
+    border-color: #fff;
+    height: 0;
+}
+footer .about,
+footer .copyright-text{
+    color: #fff;
+    font-family: 'Monsterrat', sans-serif;
+}
+footer .about h2{
+    font-size: 36px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+footer .about p,
+footer .copyright-text{
+    font-weight: 400;
+    font-size: 24px;
+    margin:15px 0;
+}
+footer .copyright-text{
+    margin-top: 80px;
+}
+@media screen and (max-width:998px){
+    .client .images .grid-headings{
+        gap: 100px;
+    }
+    .client .images .grid div img{
+        height: 45px;
+        width: 85px;
+    }
+}
+@media screen and (max-width:768.9px){
+    .client h3{
+        font-size: 18px;
+        margin-bottom: 30px;
+    }
+    .client p{
+        font-size: 16px;
+    }
+    .client .images .grid-headings{
+        gap: 70px;
+    }
+    .client .images .grid-headings div h4{
+        font-size: 15px;
+    }
+    .client .images .grid div img{
+        height: 35px;
+        width: 60px;
+        background-color: #707070;
+    }
+    footer .head{
+        font-size: 28px;
+    }
+    footer .quick-links ul li a{
+        font-size: 18px;
+    }
+    footer .about h2{
+        font-size: 24px;
+    }
+    footer .about p{
+        font-size: 12px;
+    }
+    footer .copyright-text{
+        font-size: 18px;
+    }
+    footer .copyright-text p{
+        display: block !important;
+    }
+    footer .copyright-text span{
+        display:none;
+    }
+}
+@media screen and (max-width:580.9px){
+    .client h3{
+        font-size: 12px;
+        margin-bottom: 25px;
+    }
+    .client p{
+        font-size: 12px;
+        text-align: center;
+    }
+    .client .images .grid-headings{
+        grid-template-columns: repeat(3, 1fr);
+        gap: 0px;
+    }
+    .client .images .grid-headings .col1{
+        grid-column-start: 1;
+        grid-column-end: 2;
+    }
+    .client .images .grid-headings .col2{
+        grid-column-start: 2;
+        grid-column-end: 3;
+    }
+    .client .images .grid-headings .col3{
+        grid-column-start: 3;
+        grid-column-end: 4;
+    }
+    .client .images .grid div img{
+        height: 31px;
+        width: 70px;
+    }
+    .client .images .grid{
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: 12;
+        gap: 10px 20px;
+    }
+    .client .images .grid-headings{
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .client .images .grid-headings div h4{
+        font-size: 12px;
+    }
+    footer .head{
+        font-size: 18px;
+    }
+    footer .quick-links{
+        margin-top: 25px;
+    }
+    footer .quick-links ul li a{
+        font-size: 18px;
+    }
+    footer .icons-div .icon li a{
+        width: 40px;
+        height: 40px;
+        margin-left: 0;
+    }
+    footer .contact h2{
+        font-size: 18px;
+    }
+    .contact .info li span, .contact .info li a{
+        font-size: 14px;
+    }
+    footer .icons-div{
+        flex-direction: column;
+    }
+    footer .about h2{
+        font-size: 18px;
+    }
+    footer .about p{
+        font-size: 8px;
+    }
+    footer .copyright-text{
+        font-size: 12px;
+    }
+}
