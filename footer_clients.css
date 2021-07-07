@@ -4,19 +4,19 @@
 .client{
     width: 100%;
     padding: 30px 70px;
-    color: #707070;
+    color: #000;
     margin-bottom: 352px;
 }
 .client h3{
     font-family: 'Monsterrat', sans-serif;
     font-size: 30px;
-    font-weight: 300;
+    font-weight: 100;
     margin-bottom: 50px;
     text-transform: uppercase;
 }
 .client p{
     margin: 40px 0;
-    font-size: 24px;
+    font-size: 16px;
 }
 .client .images .grid-headings{
     display: grid;
@@ -39,6 +39,8 @@
 .client .images .grid-headings div h4{
     font-size: 20px;
     margin: 15px 5px;
+    font-family: 'Monsterrat', sans-serif;
+
 }
 .client .images .grid{
     display: grid;
@@ -56,9 +58,8 @@
     background-color: #707070;
 }
 footer{
-    position: relative;
+    /* position: relative; */
     width: 100%;
-    height: auto;
     padding: 30px 50px;
     font-family: 'Monsterrat', sans-serif;
     background: linear-gradient(to left, #1aa7de, #084e78);
@@ -66,6 +67,7 @@ footer{
 footer .head{
     font-size: 48px;
     font-weight: 600;
+    margin-top: 10px !important;
     color: #fff;
 }
 footer .link-contact{
@@ -209,6 +211,7 @@ footer .copyright-text{
 
 .client{
     padding: 0px 37px;
+    margin-bottom: 50px;
 }
 
     .client h3{
@@ -250,6 +253,12 @@ footer .copyright-text{
     .client .images .grid-headings div h4{
         font-size: 12px;
     }
+
+footer{
+    padding: 30px 30px;
+}
+
+
     footer .head{
         font-size: 18px;
     }
@@ -277,7 +286,7 @@ footer .copyright-text{
         font-size: 18px;
     }
     footer .about p{
-        font-size: 8px;
+        font-size: 12px;
     }
     footer .copyright-text{
         font-size: 12px;
