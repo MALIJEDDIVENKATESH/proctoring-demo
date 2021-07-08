@@ -65,7 +65,7 @@ footer{
     background: linear-gradient(to left, #1aa7de, #084e78);
 }
 footer .head{
-    font-size: 48px;
+    font-size: 30px;
     font-weight: 600;
     margin-top: 10px !important;
     color: #fff;
@@ -88,7 +88,7 @@ footer .quick-links ul li{
 footer .quick-links ul li a{
     color: #fff;
     font-weight: 400;
-    font-size: 24px;
+    font-size: 20px;
     display: inline-block;
     width: 300px;
 }
@@ -144,14 +144,14 @@ footer .copyright-text{
     font-family: 'Monsterrat', sans-serif;
 }
 footer .about h2{
-    font-size: 36px;
+    font-size: 30px;
     font-weight: 600;
     margin-bottom: 30px;
 }
 footer .about p,
 footer .copyright-text{
     font-weight: 400;
-    font-size: 24px;
+    font-size: 20px;
     margin:15px 0;
 }
 footer .copyright-text{
