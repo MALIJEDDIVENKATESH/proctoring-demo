@@ -114,7 +114,7 @@ body{
 }
 
 #five-steps-image {
-    background-image: url('./fivesteps/Group\ 598.png');
+    background-image: url('./fivesteps/Group\ 598.svg');
     height: 300px;
     width: 100%;
     margin:0px auto;
@@ -590,8 +590,8 @@ padding: 0px;
 
 
 .five-steps{
-    margin-top: 300px !important;
-    margin-bottom: 297px !important;
+    margin-top: 180px !important;
+    margin-bottom: 180px !important;
 }
 
 .nav-tabs{
@@ -1399,7 +1399,7 @@ section {
 }
 
 #five-steps-image {
-    background-image: url('./fivesteps/Group\ 1057.png');
+    background-image: url('./fivesteps/Group\ 1057.svg');
     height: 550px;
     width: 100%;
     margin:0px auto;
