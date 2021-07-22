@@ -1430,7 +1430,8 @@ section {
     .floatingbtn{
         position: fixed;
         bottom: 25vh;
-        left: -80vw;
+        width: 50px;
+        left: 5vw;
         z-index: 100;
     
     } 
