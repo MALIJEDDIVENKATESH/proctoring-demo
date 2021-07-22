@@ -1,12 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@200;300;400;500;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;800&display=swap');
 
-.client{
-    width: 100%;
-    padding: 30px 70px;
-    color: #000;
-    margin-bottom: 100px;
+.client {
+    font-family: 'Monsterrat', sans-serif;
+
 }
+
+.client .image img{
+    height: 100%;
+    width: 100%;
+    object-fit:contain;
+  }
+
+
+  
+  .client .image {
+    height: 100px;
+    width: 150px;
+    margin: 10px 5px;
+  }
+
 .client h3{
     font-family: 'Monsterrat', sans-serif;
     font-size: 30px;
@@ -18,12 +31,12 @@
     margin: 40px 0;
     font-size: 16px;
 }
-.client .images .grid-headings{
+ .client .images .grid-headings{
     display: grid;
     grid-template-columns: repeat(12, 1fr);
     gap: 10px;
     text-align: center;
-}
+} 
 .client .images .grid-headings .col1{
     grid-column-start: 1;
     grid-column-end: 9;
@@ -32,24 +45,24 @@
     grid-column-start: 11;
     grid-column-end: 14;
 }
-/* .client .images .grid-headings .col3{
+ .client .images .grid-headings .col3{
     grid-column-start: 7;
     grid-column-end: 10;
-} */
-.client .images .grid-headings div h4{
+} 
+ .client .images .grid-headings div h4{
     font-size: 15px;
     margin: 15px 5px;
     font-family: 'Monsterrat', sans-serif;
 
-}
+} 
 .client .images .grid{
     display: grid;
     grid-template-columns: repeat(9, 1fr) repeat(3, 1fr);
     grid-template-rows: 3;
     /* grid-column-gap: 20px; */
-    gap: 5px 10px;
-}
-.client .images .grid .col,
+    /* gap: 5px 10px; */
+ } 
+ .client .images .grid .col,
 .client .images .grid-headings .col{
     padding: 0;
 }
@@ -57,7 +70,7 @@
     height: 50px;
     width: 100px;
     background-color: #707070;
-}
+}  
 footer{
     /* position: relative; */
     width: 100%;
@@ -215,6 +228,13 @@ footer .copyright-text{
     margin-bottom: 50px;
 }
 
+.client .image {
+    height: 100px;
+    width: 125px;
+    margin: 10px 5px;
+  }
+
+
     .client h3{
         font-size: 18px;
         margin-bottom: 25px;
@@ -291,5 +311,12 @@ footer{
     }
     footer .copyright-text{
         font-size: 12px;
+    }
+}
+
+@media screen and (max-width:380.9px){
+
+    .client .image{
+        width: 100px;
     }
 }
