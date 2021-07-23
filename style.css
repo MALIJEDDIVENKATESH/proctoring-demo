@@ -240,7 +240,7 @@ width: 100px;
 .landing-item{
     background-color: #fff;
     height: 200px;
-    width: 180px;
+    width: 200px;
     padding: 10px;
     display: flex;
     text-align: center;
@@ -1429,7 +1429,7 @@ section {
     
     .floatingbtn{
         position: fixed;
-        bottom: 25vh;
+        bottom: 10vh;
         width: 50px;
         left: 5vw;
         z-index: 100;
