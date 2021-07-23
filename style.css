@@ -33,14 +33,16 @@ body{
 
 
 @keyframes scroll {
-    0%{
-        transform: translateX(-100%);
+    from{
+        transform: translateX(0%);
     }
 
-    100%{
-        transform: translateX(100%);
+    to{
+        transform: translateX(-80%);
     } 
 }
+
+
 
 .whotrustus {
     width: 100%;
@@ -77,7 +79,7 @@ body{
     flex-wrap: nowrap;
     align-items: center;
     height: 100%;
-    animation: scroll 12s infinite linear alternate-reverse ;
+    animation: scroll 12s infinite linear alternate-reverse  ;
 
   }
 
@@ -251,7 +253,7 @@ width: 100px;
     margin-left: 0px;
     border-radius: 20px;
     color:rgb(26, 167 ,222);
-    box-shadow:0px 0px 10px 0px  rgba(255, 255, 255, 0.70);
+    box-shadow:0px 0px 5px 0px  rgba(255, 255, 255, 0.70);
 
 
 }
@@ -311,7 +313,8 @@ width: 100px;
     padding-right: 90px;
     margin: 0 !important;
     display: flex;
-    flex-direction: row;   
+    flex-direction: row;  
+ 
 
 
 }
@@ -331,7 +334,7 @@ width: 100px;
 
 .whywestandout .feature-item,.whatistm .feature-item{
     background-color: #fff;
-    height: 480px ;
+    height: 380px ;
     display: flex;
     font-family: 'Montserrat', sans-serif;
     flex-direction: column;
@@ -1214,6 +1217,11 @@ section {
         padding: 0px 80px;
         overflow-x: scroll;
       }
+
+      .whotrustus::-webkit-scrollbar{
+        display: none;
+    }
+    
     
       .whotrustus .whotrustus-container {
         width: 100%;
@@ -1278,13 +1286,31 @@ section {
         width: 120px;
         
     }
+
+    @keyframes scroll2 {
+        from {
+           transform:translateX(0%);
+      } 
+      to{
+          transform: translateX(-80%);
+      }
+  
+      
+  
+  }
+
+
     
     .features .feature-container{
-        overflow: scroll;
+      /* overflow-x: scroll; */
+
+        /* overflow-x:scroll; */
         padding: 0px 0px ;
         display: flex;
         flex-direction: row;
         padding-left: 60px !important;
+        animation: scroll2 10s infinite linear alternate-reverse ;
+
     }
     
     .features .feature-container::-webkit-scrollbar{
@@ -1470,6 +1496,11 @@ section {
     
     }
     
+    .landing-item{
+margin: 20px auto;    
+    
+    }
+    
     
     .landing-item-container{
      margin: 0px 30px;
@@ -1487,9 +1518,32 @@ section {
         width: 120px;
         
     }
+
+    @keyframes scroll {
+    from{
+        transform: translateX(100%);
+    }
+
+    to{
+        transform: translateX(-100%);
+    } 
+}
+
+
+    @keyframes scroll2 {
+        from {
+           transform:translateX(0%);
+      } 
+      to{
+          transform: translateX(-150%);
+      }
+  
+      
+  
+  }
     
     .features .feature-container{
-        overflow: scroll;
+        /* overflow: scroll  ; */
         padding: 0px 0px ;
         padding-left: 36px ;
     }

@@ -261,7 +261,7 @@
       </g>
     </g>
     <text id="Publish_Result" data-name="Publish Result" transform="translate(390 1779)" fill="#707070" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="-42.878" y="0">Publish Result</tspan></text>
-    <text id="Evaluate_Answersheet" data-name="Evaluate Answersheet" transform="translate(517 1698)" fill="#707070" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="-66.849" y="0">Evaluate Answersheet</tspan></text>
+    <text id="Evaluate_Test" data-name="Evaluate Test" transform="translate(518 1698)" fill="#707070" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="-39.611" y="0">Evaluate Test</tspan></text>
     <text id="Proctor_Test" data-name="Proctor Test" transform="translate(384 1608)" fill="#707070" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="-36.5" y="0">Proctor Test</tspan></text>
     <g id="Group_1053" data-name="Group 1053" transform="translate(2091.645 2577.645) rotate(142)">
       <line id="Line_22-4" data-name="Line 22" x2="37" transform="translate(592.642 1871.5)" fill="none" stroke="#b9b9b9" stroke-width="2" stroke-dasharray="2 2"/>
