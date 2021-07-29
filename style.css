@@ -217,6 +217,7 @@ filter: invert(54%) sepia(97%) saturate(1041%) hue-rotate(167deg) brightness(90%
     margin-top: 65px;
     background-image: url('./images/Homebg.png');
     text-align: left;
+    position: relative;
 
 }
 
@@ -239,6 +240,11 @@ width: 100px;
 
 
 }
+
+.landing-item-container{
+    margin-right: 10px;
+}
+
 .landing-item{
     background-color: #fff;
     height: 200px;
@@ -299,6 +305,10 @@ width: 100px;
     padding: 10px 170px;
 }
 
+.features a{
+    text-decoration: none;
+}
+
 .integrations .heading{
     padding: 0px 10px;
     text-align: left;
@@ -332,7 +342,7 @@ width: 100px;
 
 
 
-.whywestandout .feature-item,.whatistm .feature-item{
+.whywestandout .feature-item,.whatistm  .feature-item{
     background-color: #fff;
     height: 380px ;
     display: flex;
@@ -358,7 +368,6 @@ width: 100px;
     margin: 0px 0px;
     padding: 0px 0px;
     border-radius: 20px;
-    color:rgb(26, 167 ,222);
     text-align:center;
     width: 156px;
 }
@@ -383,6 +392,8 @@ width: 100px;
 .whywestandout .feature-title,.whatistm .feature-title{
     font-weight: 600 ;
     font-size: 20px;
+    color:rgb(26, 167 ,222);
+
     line-height: 24px;
     
 }
@@ -392,6 +403,8 @@ width: 100px;
     font-size: 17px;
     line-height: 24px;
     margin-bottom: 36px;
+    color:rgb(26, 167 ,222);
+
 
 
 }
@@ -605,7 +618,7 @@ padding: 0px;
     font-size: 25px;
     display: block;
     height: 50px;
-    width: 50px;
+    width:50px;
     text-align: center;
     background-color:rgb(37, 164, 223);
     /* filter: brightness(0.5) sepia(1) hue-rotate(140deg) saturate(6);
@@ -626,10 +639,11 @@ padding: 0px;
     justify-content: space-between;
     align-items: center;
     height: 200px;
-    position: fixed;
-    bottom: 20vh;
-    right: 2vw;
+    position: absolute ;
+    bottom: 10vh;
+    right: 50px;
     z-index: 100;
+    width: 50px;
 
 }
 
@@ -1193,7 +1207,7 @@ section {
 
 
 
-@media  (max-width : 1200px){
+@media  (max-width :1200px){
 
 
     .navbar{
@@ -1209,6 +1223,10 @@ section {
         padding: 0px;
     }
 
+    .landing-item-container{
+        margin-right: 5px;
+    }
+    
 
 
 
@@ -1308,8 +1326,14 @@ section {
         padding: 0px 0px ;
         display: flex;
         flex-direction: row;
-        padding-left: 60px !important;
+        padding-left: 60px ;
+
+    }
+
+
+    .whyus .feature-container ,.whywestandout .feature-container{
         animation: scroll2 10s infinite linear alternate-reverse ;
+
 
     }
     
@@ -1322,6 +1346,7 @@ section {
             
             margin-right: 80px;
             width: 240px;
+            margin: auto;
         }
     
         
@@ -1436,6 +1461,11 @@ section {
     
     }
 
+    .scrollbutton  img{
+        width: 40px;
+        height: 40px;
+    }
+
 
     
   .whotrustus .whotrustus-container {
@@ -1454,10 +1484,10 @@ section {
  
     
     .floatingbtn{
-        position: fixed;
+        position: sticky;
         bottom: 10vh;
         width: 50px;
-        left: 5vw;
+        left: 0vw;
         z-index: 100;
     
     } 
@@ -1545,15 +1575,25 @@ margin: 20px auto;
     .features .feature-container{
         /* overflow: scroll  ; */
         padding: 0px 0px ;
-        padding-left: 36px ;
+        padding-left: 0px ;
     }
     
         
-        .whywestandout .feature-item,.whatistm .feature-item{
+        .whywestandout .feature-item,
+        .whatistm .feature-item
+        {
             
             margin-right: 57px;
             width: 156px;
+            /* margin: auto; */
             /* margin-left: 50px; */
+        }
+
+
+        .whatistm .feature-item{
+            margin: auto;
+           width:  222px;
+           height: 320px;
         }
     
         
@@ -1565,7 +1605,7 @@ margin: 20px auto;
     
     
 
-.whywestandout .feature-title,.whatistm .feature-title{
+.whywestandout  .feature-title,.whatistm .feature-title{
     font-weight: 500 ;
     font-size: 18px;
 }
@@ -1594,6 +1634,9 @@ margin: 20px auto;
 }
 
 
+.whatistm .feature-description{
+    width: 100%;
+}
     
     
     .features .heading{

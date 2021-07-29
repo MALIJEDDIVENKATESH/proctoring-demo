@@ -1,6 +1,78 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@200;300;400;500;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;800&display=swap');
 
+
+
+
+
+
+
+#testimonials .swiper-container{
+    /* height: 400px; */
+    padding: 0;
+    /* width: 94%; */
+
+}
+
+#testimonials .swiper-slide{
+    /* background: #ccc; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 250px;
+    min-height: 400px;
+    border-radius: 30px !important;
+
+
+}
+#testimonials .swiper-button-prev,#testimonials .swiper-button-next{
+    color:greenyellow !important;
+    background-color: #707070;
+    padding: 20px;
+    border-radius: 50px;
+    color:white !important;
+
+}
+
+#testimonials .swiper-button-next:after,#testimonials .swiper-button-prev:after {
+
+    font-size: 15px;
+
+}
+#testimonials .swiper-pagination-bullet{
+    color: black;
+    background-color: black !important;
+}
+
+  
+
+#testimonials .studentimg{
+margin-bottom: 5px;
+height: 90%;
+width: 100%;
+object-fit:contain;
+
+}
+
+#testimonials .testimonial{
+    background-color:white;
+    height: 200px;
+    width: 250px;
+    /* border-radius: 15px; */
+    display: flex;
+    /* height: ; */
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
+}
+
+.testimonial .logo-description{
+    background-color: gainsboro;
+}
+
+
 .client {
     font-family: 'Monsterrat', sans-serif;
 
@@ -20,7 +92,7 @@
     margin: 10px 5px;
   }
 
-.client h3{
+#testimonials h2{
     font-family: 'Monsterrat', sans-serif;
     font-size: 30px;
     font-weight: 100;
@@ -72,7 +144,6 @@
     background-color: #707070;
 }  
 footer{
-    /* position: relative; */
     width: 100%;
     padding: 30px 50px;
     font-family: 'Monsterrat', sans-serif;
@@ -106,6 +177,11 @@ footer .quick-links ul li a{
     display: inline-block;
     width: 300px;
 }
+
+
+
+
+
 footer .contact{
     color: #fff;
 }
@@ -222,6 +298,17 @@ footer .copyright-text{
     }
 }
 @media screen and (max-width:580.9px){
+
+footer{
+    /* text-align: center; */
+}
+
+
+
+
+#testimonials .swiper-slide{
+    width: 100%;
+}
 
 .client{
     padding: 0px 37px;
